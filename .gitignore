@@ -1,24 +1,65 @@
-# Compiled class file
-*.class
+#################
+## Misc
 
-# Log file
-*.log
+osgi-cache/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings
+local.properties
+.loadpath
 
-# BlueJ files
-*.ctxt
+# External tool builders
+.externalToolBuilders/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+## Maven stuff
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+/workspace/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+## IDEA configs
+.idea/
+*.iml
+*.ipr
+*.iws
+/idea/
+
+## Eclipse configs
+
+.project
+.classpath
+.settings/
+*.product.launch
+
+# Dev executables
+
+.cmd
+.bat
+
+#############
+## Windows detritus
+#############
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
